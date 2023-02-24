@@ -24,7 +24,8 @@ module.exports = {
 			filename: "remoteEntry.js",
 			exposes: {
 				"./CartIndex": "./src/index"
-			}
+			},
+			shared: ["@faker-js/faker"]
 		})
 	],
 	resolve: {
